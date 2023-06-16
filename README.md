@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Screenshot%202023-06-16%20at%2011-26-26%20Vite%20React.png)
+![](./public/design/Screenshot%202023-06-16%20at%2011-26-26%20Vite%20React.png)
 
 
 ### Links
