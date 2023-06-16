@@ -5,14 +5,16 @@ export default function Card() {
     "https://api.adviceslip.com/advice"
   );
 
-
-
   return (
     <div className='Card'>
       <article className='Card-article'>
         <h1 className='Card-h1'>ADVICE #{data?.id}</h1>
 
-        {error && <h2 className="Card-text">Sorry something went wrong {error.message}</h2>}
+        {error && (
+          <h2 className='Card-text'>
+            Sorry something went wrong {error.message}
+          </h2>
+        )}
 
         {loading ? (
           <h2 className='Card-Loading Card-text'>Loading...</h2>
@@ -42,7 +44,7 @@ function Picture() {
   );
 }
 
-function Button({onOtherClick}) {
+function Button({ onOtherClick }) {
   return (
     <button className='Card-button' onClick={onOtherClick}>
       <img
