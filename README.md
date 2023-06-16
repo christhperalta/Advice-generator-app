@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://christhperalta.github.io/Advice-generator-app/)
+- Live Site URL: [https://christhperalta.github.io/Advice-generator-app/](https://christhperalta.github.io/Advice-generator-app/)
 
 ## My process
 
