@@ -1,11 +1,10 @@
 
 
 
-@mixin font-style($wieght:800,$size,$height,$spacing,$color){
-   font-weight : $wieght;
+@mixin font-style($weight:800,$size,$height,$spacing,$color){
+   font-weight :$weight ;
    font-size: $size;
    line-height: $height;
    letter-spacing: $spacing;
    color: $color;
 }
-

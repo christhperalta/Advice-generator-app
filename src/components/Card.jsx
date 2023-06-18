@@ -8,7 +8,9 @@ export default function Card() {
   return (
     <div className='Card'>
       <article className='Card-article'>
-        <h1 className='Card-h1'>ADVICE #{data?.id}</h1>
+        <h1 className='Card-h1'>
+          ADVICE <span>#{data?.id}</span>
+        </h1>
 
         {error && (
           <h2 className='Card-text'>
@@ -17,7 +19,7 @@ export default function Card() {
         )}
 
         {loading ? (
-          <h2 className='Card-Loading Card-text'>Loading...</h2>
+          <p className='Card-Loading Card-text'>Loading...</p>
         ) : (
           <p className='Card-text'>{data?.advice}</p>
         )}
